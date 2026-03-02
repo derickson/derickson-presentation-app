@@ -1,5 +1,4 @@
 import { useState, useEffect, useCallback } from 'react'
-import { Analytics } from "@vercel/analytics/react"
 import { AnimatePresence, motion } from 'framer-motion'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faSun, faMoon } from '@fortawesome/free-solid-svg-icons'
@@ -227,7 +226,6 @@ function App() {
           </motion.div>
         </AnimatePresence>
       )}
-      <Analytics />
     </div>
   )
 }
